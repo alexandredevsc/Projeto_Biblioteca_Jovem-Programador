@@ -1,4 +1,4 @@
-// a Inicializa o array buscando dados salvos localmente ou cria um array vazio
+// Inicializa o array buscando dados salvos localmente ou cria um array vazio
 let livros = JSON.parse(localStorage.getItem("livros")) || [];
 
 const formLivro = document.getElementById('form-livro');
